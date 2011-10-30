@@ -1,4 +1,4 @@
-fakefs
-======
+imfs
+====
 
-A fake fs module for the browser.
+An in-memory file system for the browser.
