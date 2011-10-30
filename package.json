@@ -1,0 +1,29 @@
+{
+  "name":            "fakefs",
+  "description":     "A fake fs module for the browser",
+  "keywords":        ["javascript", "language", "fs", "file"],
+  "author":          "Patrick Mueller",
+  "version":         "0.1.0",
+  "dependencies": {
+    "coffee-script": ">= 1.1.2"
+  }
+  "licenses": [{
+    "type":          "MIT",
+    "url":           "http://pmuellr.mit-license.org/"
+  }],
+  "engines": {
+    "node":          ">=0.2.5"
+  },
+  "directories":  {
+    "lib" :          "./lib"
+  },
+  "main" :           "./lib/fakefs",
+  "bin": {
+    "jsadl":         "./bin/fakefs",
+  },
+  "homepage":        "https://github.com/pmuellr/fakefs",
+  "repository": {
+    "type":          "git",
+    "url":           "git://github.com/pmuellr/fakefs.git"
+  }
+}
